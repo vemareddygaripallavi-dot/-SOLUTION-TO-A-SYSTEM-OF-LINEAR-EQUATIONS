@@ -15,18 +15,12 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 #Program to find the solution for the given linear equations.                                                                                         
-#Developed by: Vemareddygari Pallavi
-
-#RegisterNumber:212225230293
-
-import numpy as np
-
-matrixA=np.array([[1,3],[2,5]])
-
-const=np.array([5,-3])
-
-result=np.linalg.solve(matrixA,const)
-
+#Developed by: Vemareddygari Pallavi                                                                                                                           
+#RegisterNumber:212225230293                                                                                                                                         
+import numpy as np                                                                                                                                                    
+matrixA=np.array([[1,3],[2,5]])                                                                                                                                                 
+const=np.array([5,-3])                                                                                                                                                 
+result=np.linalg.solve(matrixA,const)                                                                                                                             
 print(result)
 ## Output:
 <img width="1189" height="846" alt="image" src="https://github.com/user-attachments/assets/1a3ce794-d735-4005-8a64-e7d9593dc244" />
